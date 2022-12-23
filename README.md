@@ -1,4 +1,3 @@
-# USunemploymentRate(need to be completed)
 
 # Background and Focus
 In 2020, COVID-19 made a negative impact on unemployment rate. As the epidemic is gradually controlled, we aim to analyze and forecast how unemployment rate will change in future years. 
