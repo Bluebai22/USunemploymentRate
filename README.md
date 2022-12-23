@@ -8,12 +8,13 @@ We dowload the close price of S&P 500 from the Yahoo Finance website, ranging fr
 # Data Cleaning
 We removed outliars in the orignal data.
 
-# Modeling
-The ARIMA model (autoregressive integrated moving average model) is one that directly models the autocorrelation of the series values as well as the autocorrelations of the forecasting errors. Here we select ARIMA as our model
+# Modeling with ARIMA
+The ARIMA model (autoregressive integrated moving average model) is one that directly models the autocorrelation of the series values as well as the autocorrelations of the forecasting errors.
 
 ![plot](https://github.com/Bluebai22/MoviePreference/blob/main/Github/ARIMA1.png)
 ![plot](https://github.com/Bluebai22/MoviePreference/blob/main/Github/ARIMA2.png)
 
-# Model explaining
+# ARIMA Model explaining
 It can observed from this figure that the parameters of auto ARIMA function is ARIMA(1,1,1)(0,0,2), which indicates it uses both ARIMA and seasonal ARIMA function. For the parameters in ARIMA function, p=1 means the number of AR terms is 1; d=1 means the difference of trend is once; q=1 means the number of moving average is 1. For the parameters in seasonal ARIMA function, only q equals to 2 which means the moving average is 2.
 
+# Modeling with Vector Autoregressions(VAR) model
